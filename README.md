@@ -62,8 +62,8 @@
 ### Installation
 ```bash
 # Clone the repository
-git clone https://github.com/sukb1980/sorbet-future-pwa.git
-cd "New project"
+git clone https://github.com/sukb1980/chandras-collection.git
+cd chandras-collection
 
 # Install dependencies
 npm install
