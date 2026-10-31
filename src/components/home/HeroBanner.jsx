@@ -27,7 +27,7 @@ const SLIDES = [
     tag: 'Artisanal Handlooms',
     cta: 'Discover Handlooms',
     category: 'Chanderi',
-    bgImage: 'https://images.unsplash.com/photo-1583391733956-3750e0ff4e8b?auto=format&fit=crop&w=1600&q=85',
+    bgImage: 'https://images.unsplash.com/photo-1618901185975-d59f7091bcfe?auto=format&fit=crop&w=1600&q=85',
     featureBadge: 'Handcrafted Heritage'
   }
 ];
@@ -197,3 +197,4 @@ export default function HeroBanner() {
     </div>
   );
 }
+

@@ -6,8 +6,10 @@ import { FiX, FiPlus, FiImage, FiSave, FiAward } from 'react-icons/fi';
 const PRESET_SAMPLE_IMAGES = [
   { label: 'Royal Crimson Banarasi', url: 'https://images.unsplash.com/photo-1610030469983-98e550d6193c?auto=format&fit=crop&w=900&q=80' },
   { label: 'Temple Kanjivaram Silk', url: 'https://images.unsplash.com/photo-1617627143750-d86bc21e42bb?auto=format&fit=crop&w=900&q=80' },
-  { label: 'Pastel Chanderi Cotton', url: 'https://images.unsplash.com/photo-1583391733956-3750e0ff4e8b?auto=format&fit=crop&w=900&q=80' },
-  { label: 'Golden Tussar Ghicha', url: 'https://images.unsplash.com/photo-1609357605129-26f69add5d6e?auto=format&fit=crop&w=900&q=80' }
+  { label: 'Handloom Pure Silk Saree', url: 'https://images.unsplash.com/photo-1618901185975-d59f7091bcfe?auto=format&fit=crop&w=900&q=80' },
+  { label: 'Golden Tussar Silk Saree', url: 'https://images.unsplash.com/photo-1588140686379-1b76a52103dc?auto=format&fit=crop&w=900&q=80' },
+  { label: 'Heritage Paithani Weave', url: 'https://images.unsplash.com/photo-1736568763905-49d82575d936?auto=format&fit=crop&w=900&q=80' },
+  { label: 'Dhakai Jamdani Saree', url: 'https://images.unsplash.com/photo-1732381915285-953ce9832512?auto=format&fit=crop&w=900&q=80' }
 ];
 
 export default function AddSareeModal() {
@@ -520,3 +522,4 @@ export default function AddSareeModal() {
     </div>
   );
 }
+

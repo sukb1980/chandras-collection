@@ -173,3 +173,4 @@ export default function Logo({ variant = 'header', size = 'default', className =
     </div>
   );
 }
+

@@ -392,3 +392,4 @@ export default function ProductCard({ saree }) {
     </div>
   );
 }
+

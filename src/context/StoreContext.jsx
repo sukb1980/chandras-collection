@@ -3,11 +3,11 @@ import { INITIAL_SAREES } from '../data/sareesData';
 
 const StoreContext = createContext(null);
 
-const SAREES_STORAGE_KEY = 'chandras_collection_sarees_v1';
-const USER_STORAGE_KEY = 'chandras_collection_user_v1';
-const WISHLIST_STORAGE_KEY = 'chandras_collection_wishlist_v1';
-const PREBOOKINGS_STORAGE_KEY = 'chandras_collection_prebookings_v1';
-const ORDERS_STORAGE_KEY = 'chandras_collection_orders_v1';
+const SAREES_STORAGE_KEY = 'chandras_collection_sarees_v2';
+const USER_STORAGE_KEY = 'chandras_collection_user_v2';
+const WISHLIST_STORAGE_KEY = 'chandras_collection_wishlist_v2';
+const PREBOOKINGS_STORAGE_KEY = 'chandras_collection_prebookings_v2';
+const ORDERS_STORAGE_KEY = 'chandras_collection_orders_v2';
 
 // 5 Days in Milliseconds: 5 * 24 * 60 * 60 * 1000 = 432,000,000 ms
 export const PREBOOKING_DURATION_MS = 5 * 24 * 60 * 60 * 1000;
@@ -196,7 +196,7 @@ export function StoreProvider({ children }) {
       id: `google_${Date.now()}`,
       name: customName || 'Meera Sundaram',
       email: customEmail || 'meera.sundaram@gmail.com',
-      avatar: customAvatar || 'https://images.unsplash.com/photo-1544005313-94ddf0286df2?auto=format&fit=crop&w=200&q=80',
+      avatar: customAvatar || 'https://images.unsplash.com/photo-1610030469983-98e550d6193c?auto=format&fit=crop&w=200&q=80',
       provider: 'google',
       role: 'user'
     };
@@ -210,7 +210,7 @@ export function StoreProvider({ children }) {
       id: `fb_${Date.now()}`,
       name: customName || 'Ananya Mukherjee',
       email: 'ananya.mukherjee@facebook.user',
-      avatar: customAvatar || 'https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&w=200&q=80',
+      avatar: customAvatar || 'https://images.unsplash.com/photo-1617627143750-d86bc21e42bb?auto=format&fit=crop&w=200&q=80',
       provider: 'facebook',
       role: 'user'
     };
@@ -224,7 +224,7 @@ export function StoreProvider({ children }) {
       id: 'admin_root',
       name: 'Chandra Admin',
       email: 'admin@chandrascollection.com',
-      avatar: 'https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?auto=format&fit=crop&w=200&q=80',
+      avatar: 'https://images.unsplash.com/photo-1618901185975-d59f7091bcfe?auto=format&fit=crop&w=200&q=80',
       provider: 'admin',
       role: 'admin'
     };
@@ -568,3 +568,4 @@ export function useStore() {
   }
   return context;
 }
+

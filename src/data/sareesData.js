@@ -1,7 +1,6 @@
 /**
  * Authentic Handcrafted Saree Catalog for "Chandra's Collection"
- * Modeled after Taneira (Titan) with regional origins, materials, craft stories,
- * stock levels, and luxury details.
+ * 100% Curated Pure Saree Photography across India's Finest Weaving Clusters.
  */
 
 export const INITIAL_SAREES = [
@@ -27,8 +26,8 @@ export const INITIAL_SAREES = [
     description: 'An heirloom Banarasi masterpiece handwoven in Varanasi using the famed Kadwa technique where each gold zari floral motif is individually engraved on pure mulberry katan silk. The resplendent crimson canvas is framed with an ornate Shikargah hunting scene border and heavy floral kalga pallu.',
     images: [
       'https://images.unsplash.com/photo-1610030469983-98e550d6193c?auto=format&fit=crop&w=900&q=80',
-      'https://images.unsplash.com/photo-1617627143750-d86bc21e42bb?auto=format&fit=crop&w=900&q=80',
-      'https://images.unsplash.com/photo-1583391733956-3750e0ff4e8b?auto=format&fit=crop&w=900&q=80',
+      'https://images.unsplash.com/photo-1610189012906-4c0aa9b9781e?auto=format&fit=crop&w=900&q=80',
+      'https://images.unsplash.com/photo-1610189013429-a703f4b245cf?auto=format&fit=crop&w=900&q=80',
     ],
     tags: ['Wedding', 'Heirloom', 'Gold Zari', 'Bestseller']
   },
@@ -54,8 +53,8 @@ export const INITIAL_SAREES = [
     description: 'A bridal Kanjivaram of imperial splendor woven in the temple town of Kanchipuram. Featuring the revered Korvai technique that connects the rich peacock-blue body to a contrasting emerald and gold temple border (Rajagopuram). Accented with Mayil (peacock) and Rudraksha auspicious motifs.',
     images: [
       'https://images.unsplash.com/photo-1617627143750-d86bc21e42bb?auto=format&fit=crop&w=900&q=80',
-      'https://images.unsplash.com/photo-1610030469983-98e550d6193c?auto=format&fit=crop&w=900&q=80',
-      'https://images.unsplash.com/photo-1583391733956-3750e0ff4e8b?auto=format&fit=crop&w=900&q=80',
+      'https://images.unsplash.com/photo-1618901185975-d59f7091bcfe?auto=format&fit=crop&w=900&q=80',
+      'https://images.unsplash.com/photo-1616756141603-6d37d5cde2a2?auto=format&fit=crop&w=900&q=80',
     ],
     tags: ['Bridal', 'Temple Weave', 'Korvai', 'Pure Silk']
   },
@@ -80,9 +79,9 @@ export const INITIAL_SAREES = [
     washCare: 'Dry Clean or Gentle Cold Water Handwash.',
     description: 'Renowned for its featherlight gossamer texture and luminous drape, this Chanderi saree is handwoven by heritage weavers in Ashoknagar district. Adorned with historic Ashavali butis and a shimmering gold zari border that radiates understated royalty.',
     images: [
-      'https://images.unsplash.com/photo-1583391733956-3750e0ff4e8b?auto=format&fit=crop&w=900&q=80',
-      'https://images.unsplash.com/photo-1610030469983-98e550d6193c?auto=format&fit=crop&w=900&q=80',
-      'https://images.unsplash.com/photo-1609357605129-26f69add5d6e?auto=format&fit=crop&w=900&q=80',
+      'https://images.unsplash.com/photo-1641699862936-be9f49b1c38d?auto=format&fit=crop&w=900&q=80',
+      'https://images.unsplash.com/photo-1676696706907-0e04665b80bd?auto=format&fit=crop&w=900&q=80',
+      'https://images.unsplash.com/photo-1619516388835-2b60acc4049e?auto=format&fit=crop&w=900&q=80',
     ],
     tags: ['Festive', 'Lightweight', 'Pastel Elegance']
   },
@@ -107,9 +106,9 @@ export const INITIAL_SAREES = [
     washCare: 'Dry clean recommended to preserve raw silk texture.',
     description: 'Earthy luxury at its purest. Harvested from wild silkworms feeding on Arjun and Asan trees in Bihar and Jharkhand forests, this natural golden Tussar silk offers a rich textured slub feel, embellished with tribal kantha needlework and antique gold borders.',
     images: [
-      'https://images.unsplash.com/photo-1609357605129-26f69add5d6e?auto=format&fit=crop&w=900&q=80',
-      'https://images.unsplash.com/photo-1617627143750-d86bc21e42bb?auto=format&fit=crop&w=900&q=80',
-      'https://images.unsplash.com/photo-1610030469983-98e550d6193c?auto=format&fit=crop&w=900&q=80',
+      'https://images.unsplash.com/photo-1588140686379-1b76a52103dc?auto=format&fit=crop&w=900&q=80',
+      'https://images.unsplash.com/photo-1651132164857-b61aa4cf7472?auto=format&fit=crop&w=900&q=80',
+      'https://images.unsplash.com/photo-1651132133386-a64fbf794081?auto=format&fit=crop&w=900&q=80',
     ],
     tags: ['Organic', 'Wild Silk', 'Artisanal', 'Silk Mark']
   },
@@ -134,9 +133,9 @@ export const INITIAL_SAREES = [
     washCare: 'Dry Clean Only. Air in shade periodically.',
     description: 'The storytelling drape of Bengal royalty. This deep midnight navy Baluchari features an extraordinary pictorial pallu depicting scenes from the Mahabharata and royal Mughal court processions, woven purely with vibrant resham threads without metallic wire.',
     images: [
+      'https://images.unsplash.com/photo-1616756141603-6d37d5cde2a2?auto=format&fit=crop&w=900&q=80',
+      'https://images.unsplash.com/photo-1610189026205-27510cfc52f8?auto=format&fit=crop&w=900&q=80',
       'https://images.unsplash.com/photo-1610030469983-98e550d6193c?auto=format&fit=crop&w=900&q=80',
-      'https://images.unsplash.com/photo-1617627143750-d86bc21e42bb?auto=format&fit=crop&w=900&q=80',
-      'https://images.unsplash.com/photo-1583391733956-3750e0ff4e8b?auto=format&fit=crop&w=900&q=80',
     ],
     tags: ['Heirloom', 'Storyteller Pallu', 'GI Tagged']
   },
@@ -161,9 +160,9 @@ export const INITIAL_SAREES = [
     washCare: 'Dry Clean Only. Wrap in mulmul cloth.',
     description: 'The golden queen of Maharashtra handlooms. Featuring a dazzling royal purple body bordered by the signature Paithani peacock (Mor) and parrot (Munia) kaleidoscopic pallu, handwoven on fine silk threads using true tapestry interlock.',
     images: [
+      'https://images.unsplash.com/photo-1736568763905-49d82575d936?auto=format&fit=crop&w=900&q=80',
+      'https://images.unsplash.com/photo-1736568764358-03183c1a34aa?auto=format&fit=crop&w=900&q=80',
       'https://images.unsplash.com/photo-1617627143750-d86bc21e42bb?auto=format&fit=crop&w=900&q=80',
-      'https://images.unsplash.com/photo-1610030469983-98e550d6193c?auto=format&fit=crop&w=900&q=80',
-      'https://images.unsplash.com/photo-1583391733956-3750e0ff4e8b?auto=format&fit=crop&w=900&q=80',
     ],
     tags: ['Royal Heritage', 'Bridal', 'Silk Mark']
   },
@@ -188,9 +187,9 @@ export const INITIAL_SAREES = [
     washCare: 'Dry Clean Only.',
     description: 'A diaphanous vision of grace. Spun from whisper-sheer pure silk organza in a warm champagne rose shade, accented with glimmering hand-embroidered zardozi vine borders, pearl accents, and mukaish constellations.',
     images: [
-      'https://images.unsplash.com/photo-1583391733956-3750e0ff4e8b?auto=format&fit=crop&w=900&q=80',
-      'https://images.unsplash.com/photo-1609357605129-26f69add5d6e?auto=format&fit=crop&w=900&q=80',
-      'https://images.unsplash.com/photo-1610030469983-98e550d6193c?auto=format&fit=crop&w=900&q=80',
+      'https://images.unsplash.com/photo-1679006831648-7c9ea12e5807?auto=format&fit=crop&w=900&q=80',
+      'https://images.unsplash.com/photo-1654764746225-e63f5e90facd?auto=format&fit=crop&w=900&q=80',
+      'https://images.unsplash.com/photo-1618901185975-d59f7091bcfe?auto=format&fit=crop&w=900&q=80',
     ],
     tags: ['Cocktail', 'Zardozi', 'Pastel Trend']
   },
@@ -215,9 +214,9 @@ export const INITIAL_SAREES = [
     washCare: 'Gentle cold handwash with mild liquid shampoo.',
     description: 'An ethereal UNESCO-recognized weaving legacy. Inky indigo blue muslin cotton body ornamented with pure white and silver supplementary weft floral motifs (Panna Hajar). Ultra-breathable, featherweight, and poetically elegant.',
     images: [
-      'https://images.unsplash.com/photo-1609357605129-26f69add5d6e?auto=format&fit=crop&w=900&q=80',
-      'https://images.unsplash.com/photo-1583391733956-3750e0ff4e8b?auto=format&fit=crop&w=900&q=80',
-      'https://images.unsplash.com/photo-1617627143750-d86bc21e42bb?auto=format&fit=crop&w=900&q=80',
+      'https://images.unsplash.com/photo-1732381915285-953ce9832512?auto=format&fit=crop&w=900&q=80',
+      'https://images.unsplash.com/photo-1732381917488-39f31539cd4f?auto=format&fit=crop&w=900&q=80',
+      'https://images.unsplash.com/photo-1732381917604-bc8f046965ee?auto=format&fit=crop&w=900&q=80',
     ],
     tags: ['Breathable', 'Jamdani', 'Summer Handloom']
   },
@@ -242,9 +241,9 @@ export const INITIAL_SAREES = [
     washCare: 'Dry Clean Only. Heirloom preservation.',
     description: 'One of the most complex weaving traditions on earth. The colors on both the front and reverse are identical. Woven using centuries-old natural resist-dye formulas and geometric elephant, parrot, and floral motifs (Nari Kunj).',
     images: [
-      'https://images.unsplash.com/photo-1610030469983-98e550d6193c?auto=format&fit=crop&w=900&q=80',
-      'https://images.unsplash.com/photo-1617627143750-d86bc21e42bb?auto=format&fit=crop&w=900&q=80',
-      'https://images.unsplash.com/photo-1609357605129-26f69add5d6e?auto=format&fit=crop&w=900&q=80',
+      'https://images.unsplash.com/photo-1732381914274-07e58b4f6dce?auto=format&fit=crop&w=900&q=80',
+      'https://images.unsplash.com/photo-1732381916738-29ed5884c183?auto=format&fit=crop&w=900&q=80',
+      'https://images.unsplash.com/photo-1732381915250-f3cfaf6710a1?auto=format&fit=crop&w=900&q=80',
     ],
     tags: ['Masterpiece', 'Double Ikat', 'Patan Heritage']
   },
@@ -269,9 +268,9 @@ export const INITIAL_SAREES = [
     washCare: 'Machine wash delicate or cold handwash.',
     description: 'Crisp, contemporary, and sustainably handcrafted. Spun from certified organic flax linen fibers that soften gracefully with every wash. Accentuated by a delicate silver selvedge border and minimal temple woven pallu.',
     images: [
-      'https://images.unsplash.com/photo-1583391733956-3750e0ff4e8b?auto=format&fit=crop&w=900&q=80',
-      'https://images.unsplash.com/photo-1609357605129-26f69add5d6e?auto=format&fit=crop&w=900&q=80',
-      'https://images.unsplash.com/photo-1610030469983-98e550d6193c?auto=format&fit=crop&w=900&q=80',
+      'https://images.unsplash.com/photo-1732381914466-db00fbffa46b?auto=format&fit=crop&w=900&q=80',
+      'https://images.unsplash.com/photo-1641699862936-be9f49b1c38d?auto=format&fit=crop&w=900&q=80',
+      'https://images.unsplash.com/photo-1618901185975-d59f7091bcfe?auto=format&fit=crop&w=900&q=80',
     ],
     tags: ['Workwear', 'Organic Linen', 'Modern Minimal']
   }
