@@ -1,66 +1,69 @@
 /* ============================================================
-   Sorbet Future Fit — Design System Tokens
-   Soft Luxury Aesthetic: Cream, Blush Pink, Rose Gold, Charcoal
+   Chandra's Collection — Indian Heritage Luxury Design System
+   Inspired by Taneira (Titan): Rich Royal Maroon, Zari Gold,
+   Ivory Handloom Silk, and Emerald Accents
    ============================================================ */
 :root {
-  /* ---- Brand Palette (Sorbet Teal & Pink) ---- */
-  --color-cream:       #FAFAFA;
-  --color-cream-deep:  #F2F2F2;
-  --color-cream-card:  #FFFFFF;
-  --color-blush:       #EE3780; /* Sorbet Pink */
-  --color-blush-light: #FCE8F0;
-  --color-blush-mid:   #F58DB2;
-  --color-rose-gold:   #00B2BA; /* Sorbet Teal */
-  --color-rose-gold-hover: #009A9E;
-  --color-rose-gold-light: rgba(0, 178, 186, 0.15);
-  --color-rose-gold-glow:  rgba(0, 178, 186, 0.3);
+  /* ---- Royal Brand Colors ---- */
+  --color-maroon:        #7B1123; /* Primary Royal Maroon */
+  --color-maroon-dark:   #540915; /* Deep Crimson */
+  --color-maroon-hover:  #8E192D;
+  --color-maroon-light:  #FDF4F5;
+  --color-maroon-subtle: rgba(123, 17, 35, 0.08);
 
-  /* ---- Neutrals / Text ---- */
-  --color-charcoal:    #1A1A1A;
-  --color-warm-gray:   #595959;
-  --color-muted:       #999999;
-  --color-border:      #E6E6E6;
-  --color-border-light:#F2F2F2;
-  --color-divider:     rgba(0, 178, 186, 0.2);
+  /* ---- Handloom Zari Gold ---- */
+  --color-gold:          #C99738; /* Burnished Royal Gold */
+  --color-gold-light:    #F7EACD;
+  --color-gold-hover:    #B28328;
+  --color-gold-dark:     #8C6316;
+  --color-gold-gradient: linear-gradient(135deg, #ECC94B 0%, #D69E2E 45%, #975A16 100%);
+  --color-gold-glow:     rgba(201, 151, 56, 0.25);
 
-  /* ---- Semantic Aliases ---- */
-  --color-bg:          var(--color-cream);
-  --color-bg-secondary:var(--color-cream-deep);
-  --color-surface:     var(--color-cream-card);
-  --color-surface-hover: #FFF8F5;
-  --color-primary:     var(--color-charcoal);
-  --color-accent:      var(--color-rose-gold);
-  --color-accent-hover:var(--color-rose-gold-hover);
-  --color-accent-glow: var(--color-rose-gold-glow);
-  --color-accent-light:var(--color-rose-gold-light);
-  --glass-border:      1px solid var(--color-border);
-  --glass-border-hover:1px solid var(--color-blush-mid);
+  /* ---- Heritage Accents ---- */
+  --color-emerald:       #1B4332; /* Royal Emerald */
+  --color-emerald-light: #E8F5EE;
+  --color-indigo:        #16213E; /* Midnight Weave */
+  --color-peacock:       #0A5C66; /* Peacock Teal */
+  --color-terracotta:    #B85042; /* Clay/Terracotta */
 
-  /* ---- Text ---- */
-  --text-primary:   var(--color-charcoal);
-  --text-secondary: var(--color-warm-gray);
-  --text-muted:     var(--color-muted);
-  --text-inverse:   #FFFFFF;
-  --text-on-accent: #FFFFFF;
+  /* ---- Neutrals & Silk Canvas ---- */
+  --color-ivory:         #FAF7F2; /* Pure Silk Raw Ivory */
+  --color-cream:         #F5EFEB; /* Warm Weave Cream */
+  --color-surface:       #FFFFFF; /* Pure White Card */
+  --color-surface-hover: #FCFAF7;
+  --color-border:        #E7DED4; /* Fine Sand Border */
+  --color-border-light:  #F2ECE4;
+  --color-divider:       rgba(201, 151, 56, 0.2);
+
+  /* ---- Typography Colors ---- */
+  --text-primary:        #231815; /* Rich Deep Espresso Charcoal */
+  --text-secondary:      #5E524D; /* Warm Gray */
+  --text-muted:          #8C7F78; /* Soft Weft Gray */
+  --text-gold:           #9A6B1A; /* Readable Gold */
+  --text-inverse:        #FFFFFF;
+  --text-maroon:         #7B1123;
+
+  /* ---- Aliases ---- */
+  --color-bg:            var(--color-ivory);
+  --color-bg-alt:        var(--color-cream);
+  --color-primary:       var(--color-maroon);
+  --color-primary-hover: var(--color-maroon-hover);
+  --color-accent:        var(--color-gold);
 
   /* ---- State Colors ---- */
-  --color-success:  #2D7D5F;
-  --color-success-bg: #E8F5EE;
-  --color-error:    #C0392B;
-  --color-error-bg: #FDEAEA;
-  --color-warning:  #B8860B;
-  --color-warning-bg: #FFF8E1;
-  --color-info:     #1A6B9A;
-  --color-info-bg:  #E8F4FD;
-
-  /* ---- Loyalty Tier Gradients ---- */
-  --tier-bronze: linear-gradient(135deg, #CD7F32 0%, #E8A87C 100%);
-  --tier-silver: linear-gradient(135deg, #9E9E9E 0%, #E0E0E0 100%);
-  --tier-gold:   linear-gradient(135deg, #B8860B 0%, #FFD700 100%);
+  --color-success:       #2D7D5F;
+  --color-success-bg:    #E9F5EF;
+  --color-error:         #B91C1C;
+  --color-error-bg:      #FEF2F2;
+  --color-warning:       #D97706;
+  --color-warning-bg:    #FFFBEB;
+  --color-info:          #1D4ED8;
+  --color-info-bg:       #EFF6FF;
 
   /* ---- Spacing ---- */
-  --space-xs:  4px;
-  --space-sm:  8px;
+  --space-2xs: 4px;
+  --space-xs:  8px;
+  --space-sm:  12px;
   --space-md:  16px;
   --space-lg:  24px;
   --space-xl:  32px;
@@ -68,47 +71,29 @@
   --space-3xl: 64px;
 
   /* ---- Border Radius ---- */
-  --radius-xs:   8px;
-  --radius-sm:   12px;
-  --radius-md:   16px;
-  --radius-lg:   24px;
-  --radius-xl:   32px;
+  --radius-xs:   4px;
+  --radius-sm:   8px;
+  --radius-md:   12px;
+  --radius-lg:   16px;
+  --radius-xl:   24px;
   --radius-full: 9999px;
 
-  /* Legacy aliases */
-  --border-radius-sm:  var(--radius-sm);
-  --border-radius-md:  var(--radius-md);
-  --border-radius-lg:  var(--radius-xl);
-  --border-radius-full:var(--radius-full);
+  /* ---- Luxury Shadows ---- */
+  --shadow-sm:   0 2px 8px rgba(35, 24, 21, 0.05);
+  --shadow-md:   0 6px 20px rgba(35, 24, 21, 0.08);
+  --shadow-lg:   0 12px 36px rgba(35, 24, 21, 0.12);
+  --shadow-gold: 0 4px 20px rgba(201, 151, 56, 0.22);
+  --shadow-maroon: 0 6px 24px rgba(123, 17, 35, 0.25);
 
-  /* ---- Shadows ---- */
-  --shadow-xs:   0 1px 4px rgba(44, 44, 44, 0.06);
-  --shadow-sm:   0 2px 10px rgba(44, 44, 44, 0.08);
-  --shadow-md:   0 4px 20px rgba(44, 44, 44, 0.10);
-  --shadow-lg:   0 8px 32px rgba(44, 44, 44, 0.12);
-  --shadow-glow: 0 4px 20px var(--color-rose-gold-glow);
-  --shadow-card: 0 2px 12px rgba(0, 178, 186, 0.08);
-
-  /* ---- Typography ---- */
-  --font-family:   'Outfit', 'Inter', system-ui, -apple-system, sans-serif;
-  --font-display:  'Outfit', sans-serif;
-
-  /* ---- Z-index layers ---- */
-  --z-base:    1;
-  --z-card:    10;
-  --z-dropdown:100;
-  --z-drawer:  200;
-  --z-modal:   300;
-  --z-toast:   400;
-  --z-nav:     500;
+  /* ---- Typography Families ---- */
+  --font-serif:    'Cinzel', 'Playfair Display', Georgia, serif;
+  --font-display:  'Cinzel', serif;
+  --font-accent:   'Playfair Display', Georgia, serif;
+  --font-sans:     'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  --font-family:   var(--font-sans);
 
   /* ---- Transitions ---- */
-  --transition-fast:   all 0.15s ease;
-  --transition-base:   all 0.25s ease;
-  --transition-slow:   all 0.4s ease;
-  --transition-spring: all 0.3s cubic-bezier(0.34, 1.56, 0.64, 1);
-
-  /* ---- Top/Bottom nav heights ---- */
-  --top-nav-height:    64px;
-  --bottom-nav-height: 72px;
+  --transition-fast: all 0.15s cubic-bezier(0.4, 0, 0.2, 1);
+  --transition-base: all 0.25s cubic-bezier(0.4, 0, 0.2, 1);
+  --transition-slow: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
 }
