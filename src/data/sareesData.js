@@ -214,7 +214,7 @@ export const INITIAL_SAREES = [
     washCare: 'Gentle cold handwash with mild liquid shampoo.',
     description: 'An ethereal UNESCO-recognized weaving legacy. Inky indigo blue muslin cotton body ornamented with pure white and silver supplementary weft floral motifs (Panna Hajar). Ultra-breathable, featherweight, and poetically elegant.',
     images: [
-      'https://images.unsplash.com/photo-1732381915285-953ce9832512?auto=format&fit=crop&w=900&q=80',
+      'https://images.unsplash.com/photo-1572470176170-98fa8abcb741?auto=format&fit=crop&w=900&q=80',
       'https://images.unsplash.com/photo-1732381917488-39f31539cd4f?auto=format&fit=crop&w=900&q=80',
       'https://images.unsplash.com/photo-1732381917604-bc8f046965ee?auto=format&fit=crop&w=900&q=80',
     ],
@@ -241,7 +241,7 @@ export const INITIAL_SAREES = [
     washCare: 'Dry Clean Only. Heirloom preservation.',
     description: 'One of the most complex weaving traditions on earth. The colors on both the front and reverse are identical. Woven using centuries-old natural resist-dye formulas and geometric elephant, parrot, and floral motifs (Nari Kunj).',
     images: [
-      'https://images.unsplash.com/photo-1732381914274-07e58b4f6dce?auto=format&fit=crop&w=900&q=80',
+      'https://images.unsplash.com/photo-1634715281818-ce65b4dbc99f?auto=format&fit=crop&w=900&q=80',
       'https://images.unsplash.com/photo-1732381916738-29ed5884c183?auto=format&fit=crop&w=900&q=80',
       'https://images.unsplash.com/photo-1732381915250-f3cfaf6710a1?auto=format&fit=crop&w=900&q=80',
     ],
@@ -268,9 +268,9 @@ export const INITIAL_SAREES = [
     washCare: 'Machine wash delicate or cold handwash.',
     description: 'Crisp, contemporary, and sustainably handcrafted. Spun from certified organic flax linen fibers that soften gracefully with every wash. Accentuated by a delicate silver selvedge border and minimal temple woven pallu.',
     images: [
+      'https://images.unsplash.com/photo-1614940685083-c5409b57da6e?auto=format&fit=crop&w=900&q=80',
+      'https://images.unsplash.com/photo-1729101146493-347d9abf62b0?auto=format&fit=crop&w=900&q=80',
       'https://images.unsplash.com/photo-1732381914466-db00fbffa46b?auto=format&fit=crop&w=900&q=80',
-      'https://images.unsplash.com/photo-1641699862936-be9f49b1c38d?auto=format&fit=crop&w=900&q=80',
-      'https://images.unsplash.com/photo-1618901185975-d59f7091bcfe?auto=format&fit=crop&w=900&q=80',
     ],
     tags: ['Workwear', 'Organic Linen', 'Modern Minimal']
   }

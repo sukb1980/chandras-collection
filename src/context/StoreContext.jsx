@@ -3,7 +3,7 @@ import { INITIAL_SAREES } from '../data/sareesData';
 
 const StoreContext = createContext(null);
 
-const SAREES_STORAGE_KEY = 'chandras_collection_sarees_v2';
+const SAREES_STORAGE_KEY = 'chandras_collection_sarees_v3';
 const USER_STORAGE_KEY = 'chandras_collection_user_v2';
 const WISHLIST_STORAGE_KEY = 'chandras_collection_wishlist_v2';
 const PREBOOKINGS_STORAGE_KEY = 'chandras_collection_prebookings_v2';
